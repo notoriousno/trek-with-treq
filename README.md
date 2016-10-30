@@ -1,6 +1,6 @@
-# Trek the World Wide Web with Treq
+# Trek the World Wide Web with Treq - THREADS First Take
 
-Most who dabble in Python love the ``requests`` module. It's a great product and can really alleviate the stress when dealing with making HTTP requests. However, sooner rather than later, a requirement will come along that requires multiple requests to be made concurrently. In fact, one of the most frequent questions asked regarding ``requests`` is how to accomplish concurrency. A rudimentary approach would be something like:
+Most who dabble in Python love the ``requests`` module. It's a great product and can really alleviate the stress when dealing with making HTTP requests. However, sooner rather than later, a requirement will come along that requires multiple requests to be made concurrently. In fact, one of the most frequent questions asked regarding ``requests`` is how to accomplish such concurrency. A rudimentary approach would be something like:
 
 
 ``` python
